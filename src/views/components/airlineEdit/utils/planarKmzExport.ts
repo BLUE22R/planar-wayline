@@ -1,6 +1,5 @@
 /**
  * 功能名称：面状航线前端 KMZ 导出
- * 创 建 人：程涛
  * 日    期：2026/07/17
  */
 import * as Cesium from 'cesium';

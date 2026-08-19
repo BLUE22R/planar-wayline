@@ -1,6 +1,5 @@
 /**
  * 功能名称：面状航线 KMZ 导入逻辑
- * 创 建 人：程涛
  * 日    期：2026/07/29
  */
 import * as Cesium from 'cesium';

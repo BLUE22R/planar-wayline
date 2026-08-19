@@ -1,6 +1,5 @@
 /**
  * 功能名称：五向倾斜摄影二维航线规划
- * 创 建 人：程涛
  * 日    期：2026/07/17
  */
 import { calculatePlanarRoute, LocalPoint, PlanarRouteSegment } from './wayLineCalc';

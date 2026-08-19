@@ -1,6 +1,5 @@
 /**
  * 功能名称：cesium 地图组件
- * 创 建 人：韦晓杰
  * 日    期：2025/06/11 16:31:54
  */
 import { defineComponent, ref, onMounted, onUnmounted, nextTick, ExtractPropTypes, SetupContext, unref } from 'vue';

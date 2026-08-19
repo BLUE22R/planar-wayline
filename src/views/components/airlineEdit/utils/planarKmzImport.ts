@@ -1,6 +1,5 @@
 /**
  * 功能名称：面状航线 KMZ 导入解析
- * 创 建 人：Codex
  * 日    期：2026/07/20
  */
 import JSZip from 'jszip';

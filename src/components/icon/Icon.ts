@@ -1,6 +1,5 @@
 /**
  * 功能名称：icon
- * 创 建 人：程涛
  * 日    期：2025/04/03 08:52:59
  */
 import { defineComponent, ref, reactive, computed, onMounted, onUnmounted, unref, Ref, PropType, nextTick, watch, ExtractPropTypes, SetupContext } from 'vue';

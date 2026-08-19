@@ -1,6 +1,5 @@
 /**
  * 功能名称：面状航线配置面板
- * 创 建 人：程涛
  * 日    期：2026/07/29
  */
 import { computed, defineComponent, ExtractPropTypes, nextTick, onMounted, onUnmounted, PropType, ref, SetupContext, watchEffect } from 'vue';

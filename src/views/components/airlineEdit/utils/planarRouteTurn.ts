@@ -1,6 +1,5 @@
 /**
  * 功能名称：面状航线协调转弯
- * 创 建 人：程涛
  * 日    期：2026/07/17
  */
 import { LocalPoint, PlanarRouteSegment, PlanarRouteSegmentType } from './wayLineCalc';

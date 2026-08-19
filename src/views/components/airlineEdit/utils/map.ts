@@ -1,6 +1,5 @@
 /**
  * 功能名称：航线绘制地图工具
- * 创 建 人：韦晓杰
  * 日    期：2025/06/11 16:17:13
  */
 import * as Cesium from 'cesium';
@@ -32,7 +31,6 @@ export const flyToBoundingBox = (viewer: Cesium.Viewer, bbox: any[], cb?: Functi
 
 /**
  * 主地图相机定位到指定航点（列表点击定位，无动画直接跳转）
- * 创 建 人：韦晓杰
  * @param viewer 主地图 Viewer
  * @param position 航点笛卡尔坐标
  */

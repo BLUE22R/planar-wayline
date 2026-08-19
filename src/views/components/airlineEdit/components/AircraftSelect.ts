@@ -1,6 +1,5 @@
 /**
  * 功能名称：飞行器选择
- * 创 建 人：程涛
  * 日    期：2025/05/30 15:41:25
  */
 import { defineComponent, ref, reactive, computed, onMounted, onUnmounted, Ref, PropType, nextTick, watch, ExtractPropTypes, SetupContext } from 'vue';

@@ -1,6 +1,5 @@
 /**
  * 功能名称：航线 Cesium 渲染器
- * 创 建 人：程涛
  * 日    期：2026/07/29
  */
 import * as Cesium from 'cesium';

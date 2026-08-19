@@ -1,6 +1,5 @@
 /**
  * 功能名称：保存航线弹窗（本地导出 KMZ）
- * 创 建 人：韦晓杰
  * 日    期：2026/07/29
  */
 import { defineComponent, ExtractPropTypes, nextTick, onUnmounted, PropType, reactive, ref, SetupContext, watch } from 'vue';

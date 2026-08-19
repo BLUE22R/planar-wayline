@@ -1,6 +1,5 @@
 /**
  * 功能名称：UI 航点动作 ↔ WPML actionGroup 编解码
- * 创 建 人：韦晓杰
  * 日    期：2026/07/20
  *
  * 对应文档：40.common-element.md actionGroup / action
