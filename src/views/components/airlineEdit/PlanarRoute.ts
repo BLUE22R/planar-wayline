@@ -457,13 +457,6 @@ export class Instance extends BaseInstance {
 	handleLineAngleSliderChange = (value: number | number[]) => this.lineAngleHandler.handleSliderChange(value);
 
 	/**
-	 * 路由回退。
-	 */
-	handleBack = () => {
-		this.router?.back();
-	};
-
-	/**
 	 * 选择 KMZ 文件后启动面状航线导入。
 	 */
 	handlePlanarKmzSelect = (file: UploadFile): void => {

@@ -7,9 +7,7 @@
 		<!-- 头部 -->
 		<div class="wayline-edit-header">
 			<div class="wayline-edit-header-left">
-				<el-icon style="cursor: pointer" @click="handleBack"><ArrowLeftBold /></el-icon>
-				<div class="divider"></div>
-				<el-button type="primary" style="margin-left: 15px" :disabled="isCalculating || isImporting || !hasRoute" @click="handleSave">
+				<el-button type="primary" :disabled="isCalculating || isImporting || !hasRoute" @click="handleSave">
 					<template #icon>
 						<el-icon style="cursor: pointer"><Files /></el-icon>
 					</template>
@@ -211,12 +209,6 @@
 }
 .pointer {
 	cursor: pointer;
-}
-.divider {
-	background: #4f4f4f;
-	width: 1px;
-	height: 19px;
-	margin: auto 16px;
 }
 .wayline-import-upload {
 	margin-left: 12px;
