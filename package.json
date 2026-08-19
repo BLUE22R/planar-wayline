@@ -1,0 +1,37 @@
+{
+	"name": "planar-route-app",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --mode env.local",
+		"build": "vue-tsc --noEmit && vite build --mode env.local",
+		"build:prod": "vue-tsc --noEmit && vite build --mode production",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@cesium-extends/subscriber": "^1.1.1",
+		"@element-plus/icons-vue": "^2.3.1",
+		"@purge-icons/generated": "^0.10.0",
+		"@turf/turf": "^7.2.0",
+		"cesium": "^1.135.0",
+		"element-plus": "^2.9.7",
+		"gsap": "^3.13.0",
+		"jszip": "^3.10.1",
+		"mitt": "^3.0.1",
+		"sass": "^1.69.5",
+		"vite-plugin-cesium": "^1.2.23",
+		"vite-plugin-svg-icons": "^2.0.1",
+		"vue": "^3.5.13",
+		"vue-router": "^4.5.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/tsconfig": "^0.7.0",
+		"typescript": "~5.7.2",
+		"unplugin-auto-import": "^0.16.7",
+		"unplugin-vue-components": "^0.25.2",
+		"vite": "5.1.4",
+		"vue-tsc": "^2.2.4"
+	}
+}

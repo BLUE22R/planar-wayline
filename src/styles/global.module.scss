@@ -1,0 +1,8 @@
+// @import已被弃用，改用@use
+@use './variables.scss';
+
+// 导出变量
+:export {
+  namespace: variables.$namespace;
+  elNamespace: variables.$elNamespace;
+}

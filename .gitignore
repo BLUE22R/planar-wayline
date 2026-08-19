@@ -1,0 +1,7 @@
+node_modules
+dist
+*.local
+.DS_Store
+visualizer.html
+src/types/auto-imports.d.ts
+src/types/auto-components.d.ts
